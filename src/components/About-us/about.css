@@ -1,0 +1,39 @@
+.about__content {
+  text-align: center;
+}
+
+.rounded-card {
+  width: 200px; /* Adjust the overall width of the card */
+  height: 300px; /* Adjust the overall height of the card */
+  border-radius: 15px; /* Adjust the border radius */
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.rounded-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+}
+
+.rounded-img {
+  border-radius: 15px 15px 0 0; /* Adjust the border radius for the image */
+  height: 50%; /* Adjust the height of the image */
+  width: 100%;
+  object-fit: cover;
+  background: rgb(162, 161, 161);
+}
+
+.card-body {
+  height: 50%; /* Adjust the height of the card body */
+  background: rgb(248, 242, 242);
+}
+
+.card-body h2 {
+  font-weight: 600;
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+/* Add any additional styling for your cards here */
